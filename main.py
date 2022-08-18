@@ -119,5 +119,3 @@ x = 0
 for i in range(1, num+1):
   i =+ x + i
   print(i)
-  
-  
