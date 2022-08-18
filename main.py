@@ -116,8 +116,10 @@
 # exercicio 02
 num = int(input("num: "))
 x = 0
-for i in range(1, num):
+for i in range(num):
+# for i in range(1, num+1): vai de 1 ate 5**
   num = i+num
-  print(num)
+  print(i)
+print(num)
   
   
