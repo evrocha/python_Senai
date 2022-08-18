@@ -116,6 +116,8 @@
 # exercicio 02
 num = int(input("num: "))
 x = 0
-for i in range(1, num+1):
-  i =+ x + i
-  print(i)
+for i in range(1, num):
+  num = i+num
+  print(num)
+  
+  
